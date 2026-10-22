@@ -14,10 +14,10 @@ while True:
 while True:
     previous = float(input("Enter previous meter reading: "))
 
-    if previous != 0:
-        break # Stops the loop when a non-zero value is entered
+    if previous >= 0:
+        break # Stops the loop when a value greater than zero is entered
     else:
-        print("Invalid input, please enter a non-zero value")
+        print("Invalid input, please enter a value greater than zero")
 
 # Validate current reading value
 
